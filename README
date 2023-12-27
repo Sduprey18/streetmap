@@ -1,0 +1,58 @@
+# StreetMap Visualization
+
+SHERKEEM DUPREY
+CSC 172
+12/10/23
+UROCHESTER
+sduprey2@u.rochester.edu
+
+This Java program, `StreetMap`, is designed to visualize street maps based on input data. It utilizes Java Swing for graphical rendering and a custom `Graph` class to represent nodes, edges, and perform graph-related operations.
+
+## Usage
+
+
+
+javac StreetMap.java
+
+
+  - To display the map graphically, include the "show" option:
+
+
+    java StreetMap input.txt show
+  
+
+
+  - To find and display the shortest path between two locations, include the "directions" option:
+
+  
+    java StreetMap input.txt directions startLocation endLocation
+ 
+
+## Input Format
+
+The input file should contain information about nodes (i) and roads (r) in the following format:
+
+```
+i nodeName latitude longitude
+r roadID startNode endNode
+```
+
+## Map Rendering
+
+The graphical rendering uses Java Swing and displays roads as lines on the map. Highlighted roads, representing the shortest path, are shown in red.
+
+## Examples
+
+- Show the map:
+
+
+  java StreetMap input.txt show
+
+
+- Show directions between two locations:
+
+
+  java StreetMap input.txt directions startLocation endLocation
+
+
+Ensure that you have a valid input file with the specified format.
