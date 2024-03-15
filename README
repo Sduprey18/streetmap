@@ -1,10 +1,5 @@
 # StreetMap Visualization
 
-SHERKEEM DUPREY
-CSC 172
-12/10/23
-UROCHESTER
-sduprey2@u.rochester.edu
 
 This Java program, `StreetMap`, is designed to visualize street maps based on input data. It utilizes Java Swing for graphical rendering and a custom `Graph` class to represent nodes, edges, and perform graph-related operations.
 
