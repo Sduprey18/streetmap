@@ -1,9 +1,7 @@
-# StreetMap Visualization
+StreetMap Visualization
 
-
-This Java program, `StreetMap`, is designed to visualize street maps based on input data. It utilizes Java Swing for graphical rendering and a custom `Graph` class to represent nodes, edges, and perform graph-related operations.
-
-## Usage
+Visual map routing in java
+ Usage
 
 
 
@@ -23,7 +21,7 @@ javac StreetMap.java
     java StreetMap input.txt directions startLocation endLocation
  
 
-## Input Format
+ Input Format
 
 The input file should contain information about nodes (i) and roads (r) in the following format:
 
@@ -32,11 +30,11 @@ i nodeName latitude longitude
 r roadID startNode endNode
 ```
 
-## Map Rendering
+ Map Rendering
 
 The graphical rendering uses Java Swing and displays roads as lines on the map. Highlighted roads, representing the shortest path, are shown in red.
 
-## Examples
+ Examples
 
 - Show the map:
 
